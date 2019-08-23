@@ -2,7 +2,7 @@
 
 # FOMP
 
-FOMP stands for Films Of My Preference. The end result came out like this: https://Oliviervdh.github.io/FOMP-Movie-app/.
+FOMP stands for Films Of My Preference. The end result came out like this: https://fionabecode.github.io/FOMP-Movie-App/. 
 
 ## description
 
@@ -15,5 +15,5 @@ The inspiration for this project was that I wanted to create a movie streaming a
 The technologies used for this project are HTML, CSS and Javascript.
 
 
-Thanks for reading, Olivier. 
+Thanks for reading, Fiona.
 
