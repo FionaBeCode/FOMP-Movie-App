@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FOMP</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+	<link rel="icon" type="image/png" href="myicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="icon" type="image/png" href="assets/img/icon.png">
+</head>
+<body>
+
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#banner">
+				<img src="assets/img/logo.png" alt="logo fomp" class="brand-logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav w-75 mx-auto justify-content-around">
+					<a class="nav-item nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#features">Features</a>
+					<a class="nav-item nav-link" href="#pricing">Pricing</a>
+					<a class="nav-item nav-link" href="#contact">Contact</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="banner" id="banner">
+			<h1 class="title">Movies for every mood</h1>
+			<p>No matter how you're feeling, we've got you covered</p>
+			<button>Try FOMP for free</button>
+		</div>
+
+		<div class="about-area" id="about">
+			<div class="text">
+				<h2 class="title">What is FOMP?</h2>
+				<p>Fomp is a streaming service that will suggest movies to you based on your mood.</p>
+				<p>Do you need a feelgood movie? Looking for something scary? Or do you want to bring the tears out?</p>
+				<p>No problem!</p>
+			</div>
+			<div class="image">
+				<img src="assets/img/watching.png" alt="watching movies">
+			</div>
+		</div>
+
+
+		<div class="features-area" id="features">
+			<h2 class="title">Features</h2>
+			<p>We show you movies based on what emotions you're feeling or what you want to feel. Take a look at the different categories we already have!</p>
+
+			<div id="containerCarousel">
+      		<!--Carousel Wrapper-->
+			<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+
+		    <!--Indicators-->
+		    <ol class="carousel-indicators">
+		      <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+		      <li data-target="#multi-item-example" data-slide-to="1"></li>
+		      <li data-target="#multi-item-example" data-slide-to="2"></li>
+		    </ol>
+		    <!--/.Indicators-->
+
+		    <!--Slides-->
+		    <div class="carousel-inner" role="listbox">
+
+		      <!--First slide-->
+		      <div class="carousel-item active">
+		          <div class="card-deck">
+		              <div class="col-md-4">
+
+
+		                  <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-primary rounded kaart">
+		                      <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="tearsicon">
+		                      <div class="card-body text-center ">
+		                        <h5 class="card-title"> Feeling Blue </h5>
+		                        <p class="card-text"> Go get your Tissues! </br> Burst into Tears! <hr>These Films will have u bawling!</p>
+		                      </div>
+							  <div class="card-footer">
+									  <img src="assets/img/sad.png" width="80px" height="80px"> </br>
+									  <a href="#" class="btn btn-outline-warning rounded-pill border-0 button"><img src="assets/img/teardrop.svg" width="30px" height="30px">Tearjerkers!</a>
+							  </div>
+		                    </div>
+		                  </div>
+
+		           <div class="col-md-4">
+		                <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-warning rounded kaart">
+							<img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="actorIcon">
+							<div class="card-body text-center ">
+								<h5 class="card-title" color="red">  Happy  </h5>
+								<p class="card-text"> Giggle, Chuckle </br> Laugh Out Loud  <hr> LOL!</br> Happy Go lucky Movies</p>
+							</div>
+							<div class="card-footer">
+									<img src="assets/img/happy.png" width="80px" height="80px"></br>
+									<a href="#" class="btn btn-outline-warning rounded-pill border-0 button"><img src="assets/img/smile.png" width="30px" height="30px"> Happiness </a>
+							</div>
+						</div>
+		              </div>
+
+		             <div class="col-md-4">
+		                 <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-success rounded kaart">
+							 <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="monstericon">
+							 <div class="card-body text-center ">
+								 <h5 class="card-title">Scare Me!</h5>
+								 <p class="card-text"> Look over your shoulder <hr> </br> These Films will have you on the edge of your seat</p>
+							 </div>
+							 <div class="card-footer">
+									 <img src="assets/img/monster.png" width="80px" height="80px">
+									 <a href="#" class="btn btn-outline-warning rounded-pill border-0 button">We'll Find You! </a>
+							 </div>
+						 </div>
+					 </div>
+		          </div>
+		      </div>
+		      <!--/.First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+          <div class="card-deck">
+
+              <div class="col-md-4">
+                  <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-info rounded kaart">
+					  <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="oddicon">
+					  <div class="card-body text-center ">
+						  <h5 class="card-title">Smarten up</h5>
+						  <p class="card-text"> Channel the IQ of a Genius <hr> Challenge Yourself </br> Fake it Til you Make it !</p>
+					  </div>
+					  <div class="card-footer">
+							  <img src="assets/img/brain.png" width="100px" height="100px"> </br>
+							  <a href="#" class="btn btn-outline-warning rounded-pill border-0 button"><img src="assets/img/glasses.png" width="30px" height="30px">CleverClogs </a>
+					  </div>
+				  </div>
+                  </div>
+
+                  <div class="col-md-4">
+                      <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-success rounded kaart">
+						  <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="worldMoviesIcon">
+						  <div class="card-body text-center ">
+							  <h5 class="card-title"> Escape Away </h5>
+							  <p class="card-text"> Explore </br> Get a taste of abroad <hr>  International Cinema </p>
+						  </div>
+						  <div class="card-footer">
+								  <img src="assets/img/movies.png"width="100px" height="100px"></br>
+								  <a href="#" class="btn btn-outline-warning rounded-pill border-0 button"><img src="assets/img/worldicon.svg"width="30px" height="30px" id="fio">Cinema</a>
+						  </div>
+					  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-danger rounded kaart">
+                      <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="lovedoctoricon">
+                      <div class="card-body text-center ">
+                        <h5 class="card-title">Fill me with Love</h5>
+                        <p class="card-text-"> In need of a little Romance <hr>  </br> Call the Love Doctor!</p>
+                      </div>
+					  <div class="card-footer">
+							  <img src="assets/img/heartmovie.png" width="100px" height="100px"></hr>
+							  <a href="#" class="btn btn-outline-warning rounded-pill border-0 button"><img src="assets/img/love glasses.png" width="30px" height="30px">Find Love </a>
+					  </div>
+				  </div>
+          </div>
+        </div>
+        </div>
+
+      <!--/.Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+          <div class="card-deck">
+
+              <div class="col-md-4">
+                  <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-warning rounded kaart">
+					  <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="LightbulbIcon ">
+					  <div class="card-body text-center ">
+						  <h5 class="card-title"> Motivation  </h5>
+						  <p class="card-text"> Success Stories </br> Get Inspired by the Best <hr></br>These Films will have u in awe.</p>
+					  </div>
+					  <div class="card-footer">
+							  <img src="assets/img/lightbulb.png" width="80px" height="80px"></br>
+							  <a href="#" class="btn btn-outline-warning rounded-pill border-0 button"> <img src="assets/img/ideasthink.svg" width="30px" height="30px">Awe Inspiring</a>
+					  </div>
+				  </div>
+          </div>
+
+          <div class="col-md-4">
+              <div class="card p-3 mt-5 shadow-m p-3 mb-2 bg-primary rounded kaart">
+				  <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="rainycloudicon">
+				  <div class="card-body text-center ">
+					  <h5 class="card-title"> Rainy Days  </h5>
+					  <p class="card-text"> Stay Home  </br> Stay Dry <hr> <br> Ideal Movies for a Rainy Day</p>
+				  </div>
+				  <div class="card-footer">
+						  <img src="assets/img/rain.png" width="80px" height="80px"></br>
+						  <a href="#" class="btn btn-outline-warning rounded-pill border-0 button"> <img src="assets/img/popcornbwicon.png" width="30px" height="30px">Binge Watch</a>
+				  </div>
+			  </div>
+		  </div>
+
+          <div class="col-md-4">
+              <div class="card p-3 mt-5 shadow-sm p-3 mb-2 bg-secondary rounded kaart">
+				  <img src="assets/img/logo.png" class="w-25 m-auto card-img-top" alt="tashIcon">
+				  <div class="card-body text-center ">
+					  <h5 class="card-title"> Manly Movies  </h5>
+					  <p class="card-text"> Get your Tash On! </br> Mind Your Macho <hr> Strong </br> Manly Movies</p>
+				  </div>
+				  <div class="card-footer">
+						  <img src="assets/img/tash.png" width="80px" height="80px"></br>
+						  <a href="#" class="btn btn-outline-warning rounded-pill border-0 button"> <img src="assets/img/arm.png" width="30px" height="30px"> Macho Man</a>
+				  </div>
+			  </div>
+		  </div>
+      </div>
+      <!--/.Third slide-->
+    </div>
+    <!--/.Slides-->
+  </div>
+  <!--/.Carousel Wrapper-->
+</div>
+</div>
+</div>
+
+
+		<div class="pricing-area" id="pricing">
+			<h2 class="title">Pricing</h2>
+			<div class="row">
+			    <div class="col-md-12" >
+			        <h4>What FOMP can do for you</h4>
+			        <p id="inleiding">Do you know the feeling: you are feeling great and you are into a movie. But, despite all the channels you don't manage to find the right movie.
+			        We, here at Fomp, are working <b>(k)night and day</b> to give you something smooth, alternative for regular tv. At Fomp we are  giving you a mood streaming service.
+			        So, if you are in the mood, read on. If not: why not watch a movie to sooth your pain?
+			        </p>
+    			</div>
+  			</div>
+
+			<div class="row table-row">
+	        	<div>
+	          <table class="table" id="prices">
+	            <thead class="">
+	              <tr>
+	                <th scope="col"></th>
+	                <th scope="col" class="yellow_orange">Fomp Free</th>
+	                <th scope="col" class="orange">Fomp Premium</th>
+	                <th scope="col" class="dark_orange">Fomp Family</th>
+
+	              </tr>
+	            </thead>
+	            <tbody>
+	              <tr>
+	                <th scope="row">Watch movies</th>
+	                <td class="yellow_orange"><i class="fas fa-check"></i></td>
+	                <td class="orange"><i class="fas fa-check"></i></td>
+	                <td class="dark_orange"><i class="fas fa-check"></i></td>
+
+	              </tr>
+
+	              <tr>
+	                <th scope="row" >Watch series</th>
+	                <td class="yellow_orange"><i class="fas fa-check"></i></td>
+	                <td class="orange"><i class="fas fa-check"></i></td>
+	                <td class="dark_orange"><i class="fas fa-check"></i></td>
+
+
+	              </tr>
+
+	              <tr>
+	                <th scope="row">Watch latest movies & series</th>
+	                <td class="yellow_orange"><i class="fas fa-times"></i></td>
+	                <td class="orange"><i class="fas fa-check"></i></td>
+	                <td class="dark_orange"><i class="fas fa-check"></i></td>
+
+	              </tr>
+
+	              <tr>
+	                <th scope="row" >Watch cartoons</th>
+	                <td class="yellow_orange"><i class="fas fa-times"></i></td>
+	                <td class="orange"><i class="fas fa-times"></i></td>
+	                <td class="dark_orange"><i class="fas fa-check"></i></td>
+
+	              </tr>
+
+	              <tr>
+	                <th scope="row"> Advertisement free</th>
+	                <td class="yellow_orange"><i class="fas fa-times"></i></td>
+	                <td class="orange"><i class="fas fa-check"></i></td>
+	                <td class="dark_orange"><i class="fas fa-check"></i></td>
+	              </tr>
+
+	              <tr>
+	                <th scope="row"></th>
+	                <td><a class="btn btn-danger" href="#" role="button" id="buttonn">FOMP 0€</a></td>
+	                <td><a class="btn btn-danger" href="#" role="button" id="buttonn">FOMP 10€</a></td>
+	                <td><a class="btn btn-danger" href="#" role="button" id="buttonn">FOMP 15€</a></td>
+	              </tr>
+	            </tbody>
+	          </table>
+	        	</div>
+	      	</div>
+
+	      	<div id="giftcard_uitleg">
+        		<h4>In the mood? Or actually quite the opposite? Give your emotions real package. </h4>
+          		<p>In love and you want this person to get the message? Mad with someone and you want to express yourself? Sent a moviegiftcard! With these Giftcards you can give that person a personal movie to watch. And maybe much much more.</p>
+          		<p>With a FOMP subscription, you can gift someone a movie!</p>
+      		</div>
+
+			<div class="gifts">
+			    <div class="moviegiftcard">
+			        <h5><i class="fas fa-smile-wink"></i> Moviegiftcard</h5>
+			        <p>Yeah. Get an insanely good present from FOMP. For yourself or for somebody else.</p>
+			        <a class="btn btn-danger" href="#" role="button" id="buttonn">GIFT THIS TO A FRIEND</a>
+			    </div>
+
+			    <div class="moviegiftcard_flowers">
+					<h5><i class="far fa-grin-hearts"></i> Moviegiftcard and everlasting flowers</h5>
+					<p> No lover is going to resist this everlasting flower (produced in Europe, with recycled plastics from the sea). Owww, love is in the air!</p>
+					<a class="btn btn-danger" href="#" role="button" id="buttonn">GIFT THIS TO A FRIEND</a>
+				</div>
+
+				<div class="moviegiftcard_teddy">
+					<h5><i class="fas fa-paw"></i> Moviegiftcard + FOMP teddybear</h5><p>Bears are always nice. FOMP bears are more than nice, they are dope! Especially if that someone is your friend.</p>
+					<a class="btn btn-danger" href="#" role="button" id="buttonn">GIFT THIS TO A FRIEND</a>
+				</div>
+
+				<div class="moviegiftcard_uber">
+					<h5><i class="fas fa-dragon"></i> Moviegiftcard + Uberdelivery</h5>
+					<p>Gives another or yourself a great possibility to choose the food that goes best with the movie/serie you are going to wacht.</p>
+					<a class="btn btn-danger" href="#" role="button" id="buttonn">GIFT THIS TO A FRIEND</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="contact-area" id="contact">
+			<div class="contact">
+
+    <div class="contact-banner">
+<!--      <h2 class="a-b-h">Talk to a Human</h2>-->
+      <p class="a-b-p">You're not going to hit a ridiculously long phone menu when you call us. <br>
+         Your email isn't going into the inbox abyss, never to be seen or heard from again.
+         At FOMP we provide the exceptional service we'd want to experience ourselves!</p>
+    </div>
+
+    <div class="contact-middle">
+      <div class="c-m-t">
+        <h2>Get In Touch</h2>
+      </div>
+
+      <div class="c-m-l">
+        <h5> FOMP Streaming strives to provide the best service possible with every contact!</h5>
+
+        <p> We operate in an industry built on intense experience. This can only be achieved through communication, feedback and experienced support - From your very first movie to your ten-year soap series.</p>
+
+        <p>FOMP is here to provide you with more information, answer any question you may
+        have and create an effective solution to optimise your viewers experience.</p>
+
+        <h4>At FOMP you can always talk to a human!</h4>
+
+        <p>Have questions about our Fomps <a class="link-color" href="#">services</a> & <a class="link-color" href="#">features</a>? our entire team receives specialized training regularly to ensure you're receiving the best information possible. From basic questions to complex compliance inquiries, we're here to help!</p>
+
+        <p>Ready to chat? Fill our the form on your right to start the conversation, we're here to help!</p>
+        <a class="link-color" href="#">Questions? Call 0800-740-36</a>
+      </div>
+
+      <div class="c-m-r">
+
+       <h5>Please note: all fields are required.</h5>
+
+        <div class="contact-form">
+          <div class="login">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname"class="input" name="firstname">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname"class="input" name="lastname">
+
+          <label for="email">Best Email</label>
+          <input type="text" id="email" class="input" name="Email">
+
+          <label for="number">Phone Number</label>
+          <input type="text" id="number" class="input" name="Phone Number">
+
+         </div>
+         <div class="msg">
+           <textarea class="area" placeholder="Comments"></textarea>
+         </div>
+         <div class="btn btn-message">SEND MESSAGE</div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Below will be the customer-service -->
+  <div class="customer-service">
+
+    <div class="customer-banner">
+      <h5 class="b-b-h">Already a customer?</h5>
+      <p class="b-b-p">Our customer support services are the best in the biz, with a 99% customer satisfaction rating.
+         They’re standing by to help you.</p>
+         <button class="button">CONTACT SUPPORT</button>
+    </div>
+
+    <div class="customer-section">
+
+      <div class="s-footer-top">
+        <h2>Help Center</h2>
+        <textarea class="area" placeholder="What do you need help with?"></textarea>
+
+        </div>
+
+      <div class="s-footer-left-1">
+        <h5>Getting Started</h5>
+        <a class="link-color" href="#">What is FOMP?</a> <br>
+        <a class="link-color" href="#">About Free Trials</a> <br>
+        <a class="link-color" href="#">Frequently Asked Questions About FOMP Billing</a>
+      </div>
+
+      <div class="s-footer-middle-1">
+        <h5>Can't Watch</h5>
+        <a class="link-color" href="#">Why isn't FOMP working?</a> <br>
+        <a class="link-color" href="#">FOMP is in the wrong language</a> <br>
+        <a class="link-color" href="#">I'm having video issues when I try to watch FOMP</a>
+
+      </div>
+
+      <div class="s-footer-right">
+        <h2>Quick Links</h2>
+
+        <a class="link-color" href="#">Reset Password</a> <br>
+        <a class="link-color" href="#">Update email</a> <br>
+        <a class="link-color" href="#">Get help signing in</a> <br>
+        <a class="link-color" href="#">Update payment method</a> <br>
+        <a class="link-color" href="#">Request TV shows or movies</a> <br>
+      </div>
+
+      <div class="s-footer-left-2">
+        <h2>Manage My Account</h2>
+
+        <a class="link-color" href="#">I can't sign in to FOMP</a> <br>
+        <a class="link-color" href="#">How do profiles work on my FOMP account?</a> <br>
+        <a class="link-color" href="#">How do I set parental controls on my FOMP account?</a> <br>
+
+      </div>
+
+      <div class="s-footer-middle-2">
+
+        <h2>Watching FOMP</h2>
+        <a class="link-color" href="a">How do I find TV shows and movies on FOMP?</a> <br>
+        <a class="link-color" href="#">Downloading TV shows and movies on FOMP</a> <br>
+        <a class="link-color" href="#">How do I turn subtitles, captions, or alternate audio on or off? </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer">
+			<a href="index.html"><img src="assets/img/logo.png" alt="logo fomp"></a>
+			<a href="#" class="socials"><i class="fab fa-facebook-square"></i></a>
+			<a href="#" class="socials"><i class="fab fa-instagram"></i></a>
+		</div>
+	</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
